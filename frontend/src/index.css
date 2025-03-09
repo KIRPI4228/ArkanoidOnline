@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
+
+  background-color: #111626;
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+  font-family: "Segoe UI Black";
+}
+
+.app-container {
+  height: 100vh;
+}
+
+.centered-component-holder {
+  padding: 0;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+.play-info-text {
+  color:white;
+}

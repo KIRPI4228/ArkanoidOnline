@@ -1,0 +1,56 @@
+.wallet-container {
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.wallet-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.wallet-balance-container {
+    border-radius: 10px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet-text {
+    color: white;
+    margin: auto 0;
+}
+
+.wallet-balance-separator {
+    width: 2px;
+    border-radius: 30%;
+    height: 100%;
+    background-color: #595c6d;
+    margin: auto 20px;
+}
+
+.wallet-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wallet-buttons-container input{
+    margin: 6px auto;
+    width: 47%;
+    height: 50px;
+}
+
+#wallet-withdraw-button {
+    width: 98%;
+}
+
+#wallet-history-button {
+    width: 47%;
+    height: 35px;
+}
+
+#wallet-withdraws-button {
+    width: 47%;
+    height: 35px;
+}

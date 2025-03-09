@@ -1,0 +1,118 @@
+{
+  "play": {
+    "info": "Вы можете поиграть нажав на кнопку играть",
+    "button": "Играть"
+  },
+  "header": {
+    "name": "Арканоид",
+    "sign_in": "Войти",
+    "sign_up": "Зарегистрироваться",
+    "sign_out": "Выйти",
+    "settings": "Настройки"
+  },
+  "input": {
+    "email": "Эл. Почта",
+    "new_password": "Новый пароль",
+    "repeat_new_password": "Повторите новый пароль",
+    "submit_reset_password": "Сбросить пароль",
+    "password": "Пароль",
+    "link_reset_password": "сбросить пароль",
+    "submit_sign_in": "Войти",
+    "username": "Имя пользователя",
+    "repeat_password": "Повторите пароль",
+    "submit_sign_up": "Зарегистрироваться",
+    "old_password": "Старый пароль",
+    "new_username": "Новое имя пользователя",
+    "amount": "Сумма",
+    "wallet-address": "Адрес кошелька"
+  },
+  "change_password_setting": {
+    "header": "Сменить пароль",
+    "button": {
+      "submit": "Сменить пароль"
+    }
+  },
+  "change_username_setting": {
+    "header": "Изменить имя пользователя",
+    "button": {
+      "submit": "Изменить имя пользователя"
+    }
+  },
+  "deposit": {
+    "header": "Пополнение",
+    "button": {
+      "submit": "Пополнить"
+    }
+  },
+  "withdraw": {
+    "header": "Вывод средств",
+    "button": {
+      "submit": "Вывод"
+    }
+  },
+  "withdraws": {
+    "label": {
+      "type": "Тип оплаты",
+      "status": "Статус",
+      "requisites": "Реквизиты",
+      "amount": "Сумма"
+    }
+  },
+  "history": {
+    "label": {
+      "amount": "Сумма",
+      "date": "Дата",
+      "description": "Описание",
+      "balance": "Остаток средств"
+    }
+  },
+  "wallet": {
+    "header": "Кошелек",
+    "button": {
+      "deposit": "Пополнить",
+      "exchange": "Обменять",
+      "withdraw": "Вывести",
+      "history": "История",
+      "withdraws": "Выплаты"
+    }
+  },
+  "email_verification_letter_sent": {
+    "text": "Ссылка для подтверждения будет отправлена на вашу электронную почту в течение 1 минуты"
+  },
+  "email_verified": {
+    "text": "Вы успешно подтвердили свою электронную почту"
+  },
+  "reset_password_verified": {
+    "text": "Вы успешно сбросили пароль"
+  },
+  "error": {
+    "credentials": {
+      "email": {
+        "already_used": "Такой адрес эл. почты уже зарегестрирован",
+        "invalid_format": "Адрес эл. почты введен не верно",
+        "account_does_not_exist": "Нету зарегистрированого аккаунта с этим адресом эл. почты"
+      },
+      "password": {
+        "too_long": "Пароль слишком длинный. Пароль должен быть короче 255 символов",
+        "incorrect_old_password": "Неверный старый пароль",
+        "not_similar": "Пароли должны совподать",
+        "empty": "Пароль не должен быть пустым либо не должен содержать пробелы"
+      },
+      "username": {
+        "invalid_format": "Имя пользователя должно быть на англиском и может содержать только символы: . _ -"
+      },
+      "incorrect_username_or_password": "Неверный адрес эл. почты или пароль"
+    },
+
+    "session": {
+      "not_valid": "Сессия не действительна"
+    },
+    "transactions": {
+      "amount_is_negative": "Сумма не должна быть отрицательной",
+      "not_enough_balance": "Не хватает денег",
+      "min": {
+        "withdraw": "Минимальная сумма для вывода - {{minimum}}"
+      }
+    }
+  }
+}

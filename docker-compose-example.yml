@@ -1,0 +1,38 @@
+services:
+  frontend:
+    image: frontend
+    restart: unless-stopped
+    ports:
+      - 80:80
+
+  backend:
+    image: backend
+    restart: unless-stopped
+    networks:
+      - backend
+    ports:
+      - 4444:4444
+    environment:
+        # Mongodb settings
+      - ARKANOID_BACKEND_SETTINGS_MONGODB_HOST=mongodb
+      - ARKANOID_BACKEND_SETTINGS_MONGODB_PORT=27017
+      - ARKANOID_BACKEND_SETTINGS_MONGODB_USERNAME=root
+      - ARKANOID_BACKEND_SETTINGS_MONGODB_PASSWORD=password
+      
+        # Mail settings
+      - ARKANOID_BACKEND_SETTINGS_MAIL_HOST=smtp.gmail.com
+      - ARKANOID_BACKEND_SETTINGS_MAIL_PORT=587
+      - ARKANOID_BACKEND_SETTINGS_MAIL_USERNAME=example@gmail.com
+      - ARKANOID_BACKEND_SETTINGS_MAIL_PASSWORD=password
+      
+        # Frontend settings
+      - ARKANOID_BACKEND_SETTINGS_FRONTEND_HOST=127.0.0.1
+      - ARKANOID_BACKEND_SETTINGS_FRONTEND_PORT=80
+      - ARKANOID_BACKEND_SETTINGS_FRONTEND_SECURED=false
+        # Jwt key setting 
+        # You can generate at https://www.grc.com/passwords.htm
+      - ARKANOID_BACKEND_SETTINGS_JWT_SECRET=super_secret_key
+
+
+networks:
+  backend:

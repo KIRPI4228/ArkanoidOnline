@@ -1,0 +1,27 @@
+.table-container {
+    width: 80vw;
+    min-height: 70vh;
+}
+
+.table-container td {
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    height: 40px;
+}
+
+.table-container table {
+    border-collapse: collapse;
+}
+
+.table-right-border {
+    border-right: solid black 2px;
+}
+
+.table-left-border {
+    border-left: solid black 2px;
+}
+
+.table-first-row {
+    border-bottom: solid black 2px;
+}

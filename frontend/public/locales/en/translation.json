@@ -1,0 +1,117 @@
+{
+  "play": {
+    "info": "You can start the game by clicking on play button",
+    "button": "Play"
+  },
+  "header": {
+    "name": "Arkanoid",
+    "sign_out": "Sign out",
+    "settings": "Settings",
+    "sign_in": "Sign in",
+    "sign_up": "Sign up"
+  },
+  "input": {
+    "email": "Email",
+    "new_password": "New password",
+    "repeat_new_password": "Repeat new password",
+    "submit_reset_password": "Reset password",
+    "password": "Password",
+    "link_reset_password": "reset password",
+    "submit_sign_in": "Sign in",
+    "username": "Username",
+    "repeat_password": "Repeat password",
+    "submit_sign_up": "Sign up",
+    "old_password": "Old password",
+    "new_username": "New username",
+    "amount": "Amount",
+    "wallet-address": "Wallet address"
+  },
+  "change_password_setting": {
+    "header": "Change password",
+    "button": {
+      "submit": "Change password"
+    }
+  },
+  "change_username_setting": {
+    "header": "Change username",
+    "button": {
+      "submit": "Change username"
+    }
+  },
+  "deposit": {
+    "header": "Deposit",
+    "button": {
+      "submit": "Deposit"
+    }
+  },
+  "withdraw": {
+    "header": "Withdraw",
+    "button": {
+      "submit": "Withdraw"
+    }
+  },
+  "withdraws": {
+    "label": {
+      "type": "Withdraw type",
+      "status": "Status",
+      "requisites": "Requisites",
+      "amount": "Amount"
+    }
+  },
+  "history": {
+    "label": {
+      "amount": "Amount",
+      "date": "Date",
+      "description": "Description",
+      "balance": "Balance"
+    }
+  },
+  "wallet": {
+    "header": "Wallet",
+    "button": {
+      "deposit": "Deposit",
+      "exchange": "Exchange",
+      "withdraw": "Withdraw",
+      "history": "History",
+      "withdraws": "Withdraws"
+    }
+  },
+  "email_verification_letter_sent": {
+    "text": "Verification link will be sent to your email within 1 minute"
+  },
+  "email_verified": {
+    "text": "You have successfully verified your email"
+  },
+  "reset_password_verified": {
+    "text": "You have successfully reset your password"
+  },
+  "error": {
+    "credentials": {
+      "email": {
+        "already_used": "This email is already used",
+        "invalid_format": "Invalid email address format",
+        "account_does_not_exist": "There is no account with this email"
+      },
+      "password": {
+        "too_long": "Password is too long. It should be less than 255 symbols",
+        "incorrect_old_password": "Incorrect old password",
+        "not_similar": "Passwords has to be similar",
+        "empty": "Password has not to be empty or it has not to contain spaces"
+      },
+      "username": {
+        "invalid_format": "Username has to be in english and can contain symbols: . _ -"
+      },
+      "incorrect_username_or_password": "Incorrect email or password"
+    },
+    "session": {
+      "not_valid": "Session is not valid"
+    },
+    "transactions": {
+      "amount_is_negative": "Amount has not to be negative",
+      "not_enough_balance": "You do not have enough money",
+      "min": {
+        "withdraw": "Minimum withdraw amount - {{minimum}}"
+      }
+    }
+  }
+}

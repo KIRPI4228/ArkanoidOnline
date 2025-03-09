@@ -1,0 +1,9 @@
+.auth-password-container {
+    margin-top: 20px;
+}
+
+.auth-password-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

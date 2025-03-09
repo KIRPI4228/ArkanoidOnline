@@ -1,0 +1,46 @@
+.styled-button {
+    background-color: #1d2231;
+    color: white;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease background-color 170ms;
+    font-family: "Segoe UI Black";
+}
+
+.styled-text-field {
+    border: 0;
+    border-radius: 4px;
+
+    font-size: 20px;
+
+    background-color: #111626;
+    color: #474a57;
+}
+
+.styled-error-text {
+    color: red;
+    font-style: italic;
+
+    margin-top: 20px;
+}
+
+.styled-text-field:focus {
+    outline: solid white 1px;
+}
+
+.blue {
+    background-color: #53aced;
+}
+
+.gold {
+    background-color: #ea981d;
+}
+
+.white-outline {
+    outline: solid white 1px;
+}

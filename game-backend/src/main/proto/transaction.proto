@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "ru.arkanoid.proto.lib";
+
+service TransactionService {
+  rpc buyGame(TransactionRequest) returns (TransactionResponse) {};
+  rpc payOutGame(TransactionRequest) returns (TransactionResponse) {};
+}
+
+message TransactionRequest {
+  string token = 1;
+  int32 amount = 2;
+}
+
+message TransactionResponse {
+  string response = 1;
+  bool isOk = 2;
+}

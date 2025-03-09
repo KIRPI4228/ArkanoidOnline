@@ -1,0 +1,56 @@
+.component-container {
+    background-color: #1d2231;
+
+    border-radius: 40px;
+
+    width: 350px;
+    padding: 30px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.component-inner-container {
+    background-color: #474a57;
+
+    border-radius: 40px;
+
+    padding: 25px;
+}
+
+.component-text-name {
+    color: white;
+
+    margin-bottom: 3px;
+}
+
+.component-text-field {
+    width: 100%;
+    height: 40px;
+
+    margin-bottom: 2px;
+
+    font-size: 20px;
+}
+
+.component-button {
+    height: 40px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    outline-width: 1px;
+}
+
+.component-link {
+    color: #53aced;
+    text-decoration: transparent;
+    align-self: flex-end;
+    height: 20px;
+}
+
+.component-link h5 {
+    margin: auto;
+}
